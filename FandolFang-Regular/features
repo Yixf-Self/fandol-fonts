@@ -1,0 +1,195 @@
+languagesystem DFLT dflt;
+languagesystem hani dflt;
+languagesystem kana dflt;
+languagesystem latn dflt;
+
+table head{
+    FontRevision 1.300;
+} head;
+
+table name {
+    nameid 0    "Copyright \00a9 2012-2013, the Fandol team.";
+    nameid 0 1  "Copyright \a9 2012-2013, the Fandol team.";
+    nameid 8    "Project Fandol";
+    nameid 9    "Clerk Ma, Jie Su";
+    nameid 10   "Chinese fonts for TeX system.";
+    nameid 11   "http://www.ctan.org/tex-archive/fonts/fandol";
+    nameid 13   "";
+    nameid 14   "http://www.gnu.org/licenses/licenses.html";
+} name;
+
+table BASE {
+    HorizAxis.BaseTagList                 icfb  icft  ideo  romn;
+    HorizAxis.BaseScriptList  DFLT  ideo   -5   765   -120  0,
+        hani  ideo   -5   765   -120  0,
+        kana  ideo   -5   765   -120  0,
+        latn  romn   -5   765   -120  0;
+
+    VertAxis.BaseTagList                  icfb  icft  ideo  romn;
+    VertAxis.BaseScriptList   DFLT  ideo  115   885   0     120,
+        hani  ideo  115   885   0     120,
+        kana  ideo  115   885   0     120,
+        latn  romn  115   885   0     120;
+} BASE;
+
+table OS/2 {
+    TypoAscender 880;
+    TypoDescender -120;
+    TypoLineGap 200;
+    XHeight 0;
+    CapHeight 0;
+    WeightClass 400;
+    WidthClass 5;
+    UnicodeRange 0 31 45 65;
+    Vendor "ADBE";
+    FSType 8;
+} OS/2;
+
+feature cpct{
+    pos \573 <-243 9 0 0>;
+    pos \574 <-252 0 0 0>;
+    pos \575 <-234 6 0 0>;
+    pos \597 <0 -284 0 0>;
+    pos \7710 <13 -450 0 0>;
+    pos \7707 <-362 -467 0 0>;
+    pos \589 <0 -269 0 0>;
+    pos \593 <0 -262 0 0>;
+    pos \595 <0 -257 0 0>;
+    pos \576 <-251 -4 0 0>;
+    pos \581 <0 -269 0 0>;
+    pos \583 <0 -273 0 0>;
+    pos \585 <0 -260 0 0>;
+    pos \587 <0 -266 0 0>;
+    pos \591 <0 -242 0 0>;
+    pos \577 <-230 44 0 0>;
+    pos \578 <-239 3 0 0>;
+    pos \579 <-246 0 0 0>;
+    pos \113 <-249 5 0 0>;
+    pos \114 <250 0 0 0>;
+    pos \115 <-249 -4 0 0>;
+    pos \116 <250 3 0 0>;
+    pos \117 <-249 -5 0 0>;
+    pos \118 <250 -5 0 0>;
+    pos \119 <-249 -17 0 0>;
+    pos \120 <250 -65 0 0>;
+    pos \121 <-249 -39 0 0>;
+    pos \122 <250 -39 0 0>;
+    pos \123 <-249 1 0 0>;
+    pos \124 <250 -3 0 0>;
+    pos \125 <-250 -1 0 0>;
+    pos \126 <251 2 0 0>;
+    pos \269 <-250 1 0 0>;
+    pos \270 <250 0 0 0>;
+    pos \292 <0 -50 0 0>;
+    pos \320 <-250 0 0 0>;
+    pos \322 <250 0 0 0>;
+    pos \352 <-250 0 0 0>;
+    pos \354 <250 0 0 0>;
+    pos \97 <250 271 0 0>;
+    pos \98 <250 257 0 0>;
+    pos \287 <250 0 0 0>;
+    pos \288 <250 0 0 0>;
+    pos \580 <0 249 0 0>;
+    pos \582 <0 252 0 0>;
+    pos \584 <0 249 0 0>;
+    pos \586 <0 234 0 0>;
+    pos \588 <0 249 0 0>;
+    pos \590 <0 227 0 0>;
+    pos \592 <0 236 0 0>;
+    pos \594 <0 227 0 0>;
+    pos \596 <0 269 0 0>;
+    pos \7709 <13 50 0 0>;
+    pos \273 <250 343 0 0>;
+    pos \275 <362 248 0 0>;
+} cpct;
+
+feature halt{
+    pos \109  <-500 0 -500 0>;
+    pos \111  <-500 0 -500 0>;
+    pos \113  <-500 0 -500 0>;
+    pos \115  <-500 0 -500 0>;
+    pos \117  <-500 0 -500 0>;
+    pos \119  <-500 0 -500 0>;
+    pos \121  <-500 0 -500 0>;
+    pos \123  <-500 0 -500 0>;
+    pos \125  <-500 0 -500 0>;
+    pos \269  <-500 0 -500 0>;
+    pos \320  <-500 0 -500 0>;
+    pos \352  <-500 0 -500 0>;
+    pos \99  <-250 0 -500 0>;
+    pos \107  <-250 0 -500 0>;
+    pos \323  <-250 0 -500 0>;
+    pos \325  <-250 0 -500 0>;
+    pos \353  <-250 0 -500 0>;
+    pos \97  <0 0 -500 0>;
+    pos \98  <0 0 -500 0>;
+    pos \110  <0 0 -500 0>;
+    pos \112  <0 0 -500 0>;
+    pos \114  <0 0 -500 0>;
+    pos \116  <0 0 -500 0>;
+    pos \118  <0 0 -500 0>;
+    pos \120  <0 0 -500 0>;
+    pos \122  <0 0 -500 0>;
+    pos \124  <0 0 -500 0>;
+    pos \126  <0 0 -500 0>;
+    pos \162  <0 0 -500 0>;
+    pos \163  <0 0 -500 0>;
+    pos \164  <0 0 -500 0>;
+    pos \262  <0 0 -500 0>;
+    pos \263  <0 0 -500 0>;
+    pos \268  <0 0 -500 0>;
+    pos \270  <0 0 -500 0>;
+    pos \273  <0 0 -500 0>;
+    pos \275  <0 0 -500 0>;
+    pos \287  <0 0 -500 0>;
+    pos \288  <0 0 -500 0>;
+    pos \292  <0 0 -500 0>;
+    pos \322  <0 0 -500 0>;
+    pos \354  <0 0 -500 0>;
+}halt;
+
+@gbclass1 = [\109 \111];
+@gbclass2 = [\110 \112];
+@gbclass3 = [\287 \288];
+
+feature ujis{
+    pos @gbclass1 <-500 0 -500 0>;
+    pos @gbclass2 <0 0 -500 0>;
+    pos @gbclass3 <250 0 0 0>;
+} ujis;
+
+feature vhal{
+    pos \109  <0 0 0 -500>;
+    pos \110  <0 0 0 -500>;
+    pos \111  <0 0 0 -500>;
+    pos \112  <0 0 0 -500>;
+    pos \162  <0 0 0 -500>;
+    pos \163  <0 0 0 -500>;
+    pos \164  <0 0 0 -500>;
+    pos \573  <0 0 0 -500>;
+    pos \574  <0 0 0 -500>;
+    pos \575  <0 0 0 -500>;
+    pos \581  <0 0 0 -500>;
+    pos \583  <0 0 0 -500>;
+    pos \585  <0 0 0 -500>;
+    pos \587  <0 0 0 -500>;
+    pos \589  <0 0 0 -500>;
+    pos \591  <0 0 0 -500>;
+    pos \593  <0 0 0 -500>;
+    pos \595  <0 0 0 -500>;
+    pos \597  <0 0 0 -500>;
+    pos \7707  <0 0 0 -500>;
+    pos \7710  <0 0 0 -500>;
+    pos \99  <0 250 0 -500>;
+    pos \7705  <0 250 0 -500>;
+    pos \580  <0 500 0 -500>;
+    pos \582  <0 500 0 -500>;
+    pos \584  <0 500 0 -500>;
+    pos \586  <0 500 0 -500>;
+    pos \588  <0 500 0 -500>;
+    pos \590  <0 500 0 -500>;
+    pos \592  <0 500 0 -500>;
+    pos \594  <0 500 0 -500>;
+    pos \596  <0 500 0 -500>;
+    pos \7709  <0 500 0 -500>;
+} vhal;
